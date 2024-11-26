@@ -1,13 +1,13 @@
 {% set name = "braq" %}
-{% set version = "0.0.7" %}
+{% set version = "0.0.8" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/braq-{{ version }}.tar.gz
-  sha256: 5a48450bca1486a3c1f76d96d8a22b1c4e066f0fbf3a583fdae8a0bf8a2b310b
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/braq-{{ version }}.tar.gz
+  sha256: c0ba570c7736f1da107eef7d34f5c6afec8ac0da05f402362708404f7ce8353d
 
 build:
   entry_points:
