@@ -24,8 +24,6 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - paradict
-    - written
 
 test:
   imports:
